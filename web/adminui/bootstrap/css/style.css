@@ -1,0 +1,143 @@
+/*==========以下部分是Validform必须的===========*/
+.Validform_checktip{
+    margin-left:8px;
+    line-height:19px;
+    height:20px;
+    overflow:hidden;
+    color:#999;
+    font-size:12px;
+    font-family: 'Glyphicons Halflings';
+}
+.Validform_right:before{
+    content: "\e013";
+    padding-right: 5px;
+    padding-top: 2px;
+    float: left;
+}
+.Validform_right{
+    color:#71b83d;
+    padding-left:2px;
+}
+.Validform_wrong:before{
+    content: "\e014";
+    padding-right: 5px;
+    padding-top: 2px;
+    float: left;
+}
+.Validform_wrong{
+    color:red;
+    padding-left:2px;
+    white-space:nowrap;
+}
+.Validform_loading:before{
+    content: "\e178";
+}
+.Validform_loading{
+    padding-left:20px;
+}
+.Validform_error{
+    background-color:#ffe7e7;
+}
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}
+#Validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#fff; position:relative; background-color:#000;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#cc0;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #000; border-top:none; text-align:left;}
+
+/*==========以上部分是Validform必须的===========*/
+
+/*========== 全局样式 ===========*/
+.row-nom:{ margin-left: 0px; margin-right: 0px; }
+.row-nom:before, .row-nom:after{ display: table; content: " "; }
+.row-nom:after{ clear: both; }
+.input-group[class*="col-"]{ float: left; }
+
+.outerIframe{ border:0; margin:0; }
+.mtop7{ margin-top: 7px; }
+.mtop10{ margin-top: 10px; }
+.mbottom10{ margin-bottom: 10px; }
+.mleft10{ margin-left: 10px; }
+.mright10{ margin-right: 10px; }
+
+.m5{ margin: 5px; }
+.mtop15{ margin-top: 15px; }
+.mbottom15{ margin-bottom: 15px; }
+.mleft15{ margin-left: 15px; }
+.mright15{ margin-right: 15px; }
+
+.ptop7{ padding-top: 7px; }
+.ptop8{ padding-top: 8px; }
+
+.ptop10{ padding-top: 10px; }
+.pbottom10{ padding-bottom: 10px; }
+.pleft10{ padding-left: 10px; }
+.pright10{ padding-right: 10px; }
+
+
+.ptop15{ padding-top: 15px; }
+.pbottom15{ padding-bottom: 15px; }
+.pleft15{ padding-left: 15px; }
+.pright15{ padding-right: 15px; }
+.pright20{ padding-right: 20px; }
+
+
+.ptop5{ padding-top: 5px; }
+.pbottom5{ padding-bottom: 5px; }
+.pleft5{ padding-left: 5px; }
+.pright5{ padding-right: 5px; }
+
+.media-social{ color: #777; }
+a.media-social:hover { color: #333; }
+.media-title{ color: #555; }
+a.media-title:hover{ color: #333; }
+img.media-object{ max-width: 150px; max-height: 150px; }
+
+img.img160{ max-width: 160px; max-height: 160px; }
+
+.h23{ height: 23px; overflow: hidden; }
+
+.ax-form-label{ float: left; min-width: 5% }
+.radio input.ax-radio{ margin-left: 1px; }
+.checkbox input.ax-checkbox{ margin-left: 1px; }
+
+.bs-callout {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-danger{border-left-color:#d9534f}
+.bs-callout-warning{border-left-color:#f0ad4e}
+.bs-callout-info{border-left-color:#5bc0de}
+
+
+.label-span{ padding-left: 12px; padding-right: 12px; }
+
+.divspantabheader{ height:40px; border: 1px solid #dddddd; line-height:40px; background-color: #d9edf7; padding-left: 5px; padding-right: 5px; }
+.divspantab{ padding-top: 10px; padding-bottom: 10px; border: 1px solid #dddddd; height: 70px; padding-left: 5px; padding-right: 5px; overflow: hidden; }
+
+
+.div-listitem > div{ border: 1px solid #dddddd; padding:15px; border-bottom: 0px; }
+.div-listitem > div:first-child{ border-radius: 4px; }
+.div-listitem > div:last-child{ border-bottom: 1px solid #dddddd; }
+.nonepic-default{ font-size: 80px; color: #ccc }
+
+
+
+/*========== 全局样式 ===========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+{
+    "name": "axmvc",
+    "description": "axmvc",
+    "keywords": ["yii2", "thinkphp3.2", "framework", "basic", "axing"],
+    "homepage": "http://www.youlipin.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "monolog/monolog": "@stable",
+        "guzzlehttp/guzzle": "@stable",
+        "desarrolla2/cache": "@stable",
+        "hashids/hashids": "@stable",
+        "rize/uri-template": "@stable",
+        "jdorn/sql-formatter": "@stable",
+        "intervention/image": "@stable",
+        "league/route": "@stable",
+        "phpoffice/phpexcel": "@stable",
+        "phpoffice/phpword": "@stable",
+        "phpoffice/phppowerpoint": "@stable",
+        "jalle19/php-whitelist-check": "@stable",
+        "symfony/var-dumper": "@stable",
+        "endroid/qrcode": "@stable",
+        "michelf/php-markdown": "@stable",
+        "league/html-to-markdown": "@stable",
+        "zizaco/entrust": "@stable",
+        "noahbuscher/macaw": "dev-master",
+        "slim/slim": "^3.9",
+        "hassankhan/config": "^0.11.2",
+        "catfan/medoo": "^1.5",
+        "predis/predis": "^1.1",
+        "maximebf/debugbar": "^1.14",
+        "menthe/aliyun-ueditor": "^0.1.2",
+        "aliyuncs/oss-sdk-php": "^2.2",
+        "upyun/sdk": "^3.3"
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+
+
+}
