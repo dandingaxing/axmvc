@@ -32,7 +32,7 @@ return array(
   'file' => array(
     // 本地文件操作与管理
     'native' => array(
-      'hostName' => 'http://192.168.198.250/uploads',
+      'hostName' => 'http://img.uploadhost.com/uploads',
       'path' => dirname( dirname(__FILE__) ) . '/web/uploads/',
       'maxsize' => 20000,
       'usedtype' => array('jpg', 'jpeg', 'png', 'gif', 'zip', 'gz'),
@@ -40,7 +40,7 @@ return array(
 
 
     'aliyun' => array(
-      'hostName' => 'http://img.162.168.198.250',
+      'hostName' => 'http://img.aliyun.uploadhost.com',
       'accessKeyId' => '',
       'accessKeySecret' => '',
       'endpoint' => '',
@@ -51,7 +51,7 @@ return array(
 
     // 又拍云文件操作与管理
     'upyun' => array(
-      'hostName' => 'http://youlipinpic.b0.upaiyun.com',
+      'hostName' => 'http://img.upaiyun.com.host.com',    // youlipinpic.b0.upaiyun.com
       'serviceName' => 'bucketname',
       'operatorName' => 'upyunusername',
       'operatorPwd' => 'upyunpasswd',

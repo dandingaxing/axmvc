@@ -4,10 +4,10 @@ return array(
   'db' => array(
     'mysql' => array(
       'database_type' => 'mysql',
-      'database_name' => 'news',
-      'server' => '127.0.0.1',
-      'username' => 'root',
-      'password' => 'shaoxing',
+      'database_name' => 'dbs_name',
+      'server' => 'dbs_host',
+      'username' => 'dbs_username',
+      'password' => 'dbs_password',
       'charset' => 'utf8',
       'port' => 3306,
       
@@ -27,10 +27,10 @@ return array(
 
     'mysqli' => array(
       'database_type' => 'mysql',
-      'database_name' => 'news',
-      'server' => '127.0.0.1',
-      'username' => 'root',
-      'password' => 'shaoxing',
+      'database_name' => 'dbs_name',
+      'server' => 'dbs_host',
+      'username' => 'dbs_username',
+      'password' => 'dbs_password',
       'charset' => 'utf8',
       'port' => 3306,
       
